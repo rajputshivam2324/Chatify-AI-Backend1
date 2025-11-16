@@ -7,7 +7,7 @@ const port = 4001;
 
 // Add CORS middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://chatifyai.vercel.app',
   credentials: true
 }));
 
